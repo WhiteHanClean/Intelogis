@@ -1,0 +1,27 @@
+@import "../../node_modules/leaflet/dist/leaflet.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leaflet-container {
+  height: 100vh;
+  width: 100vw;
+}
+.map {
+  display: flex;
+  position: relative;
+}
+.table_to_map {
+  position: absolute !important;
+  left: 100px !important;
+  z-index: 999 !important;
+  top: 50px;
+}
+
+#my-table .selected-row {
+  background-color: #d78a8a;
+}
+
