@@ -10,6 +10,7 @@ export function* getApiCartsSaga(action) {
   );
   yield put(getApiSuccess(payload));
 }
+//можно так же вытащить всю геометрию передвижения, в данном коде вытащил только сам маршрут
 
 const apiCart = createSlice({
   name: "posts",
